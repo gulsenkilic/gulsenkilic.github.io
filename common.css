@@ -1,0 +1,44 @@
+.section {
+    background-color: #f1f5fd!important;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.image {
+    border: 5px solid lightgrey;
+}
+
+body {
+    color: black;
+    font-family: courier;
+    background-image: url(images/arka2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accordion {
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+    border: 3px solid lightgrey;
+    background-color: transparent;
+}
+
+.accordion:hover {
+    background-color: darkgrey;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    color: black;
+    overflow: hidden;
+}
